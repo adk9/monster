@@ -4,7 +4,6 @@ monster
 
 MONitoring SysTEm Resources
 
-------------
 Dependencies
 ------------
 
@@ -15,11 +14,19 @@ Dependencies
 4. po6 (git://github.com/rescrv/po6.git)
 5. e (git://github.com/rescrv/e.git)
 
-------------
-Instructions
+Installation
 ------------
 
 1. Install all the above dependencies.
-2. Run: git submodule init
-3. Run: git submodule update
-4. Run: ./build.sh
+2. Fetch and build HyperDex:
+<pre>
+    git submodule init
+    git submodule update
+    ./build.sh
+</pre>
+
+License
+-------
+
+Author
+------
